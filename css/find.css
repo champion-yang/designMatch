@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.most-back{
+    width: 100%;
+    height: 345px;
+    overflow: hidden;
+    position: relative;
+}
+.back{
+    position: absolute;
+    left: 0;
+    top: -220px;
+    height: 1000px;
+    width: 100%;
+}
+.backs{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28,28,28,0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 93px;
+}
+.nav-box{
+    padding: 0 40px;
+    margin: 0 auto;
+    height: 100%;
+}
+.nav-left{
+    width: 191px;
+    height: 100%;
+    float: left;
+}
+.img-box{
+    width: 131px;
+    height: 29px;
+    margin-top: 30px;
+}
+.img-box .imgg{
+    width: 100%;
+    height: 100%;
+}
+.nav-center{
+    width: 934px;
+    height: 100%;
+    float: left;
+    margin-left: 16px;
+}
+.nav-center .object{
+    margin-right: 30px;
+    margin-left: 30px;
+    float: left;
+    margin-top: 34px;
+}
+.nav-center .object .text{
+    color: #ffffff;
+    padding: 2px 0 3px 0;
+    min-width: 20px;
+    text-align: center;
+    transition: color 0.2s ease;
+    border: 1px solid transparent;
+    position: relative;
+
+}
+.nav-center .object:nth-child(1) .text{
+    color: #efefef;
+}
+.nav-center .object .text:hover{
+    color: #efefef;
+}
+.nav-center .object .text i{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    opacity: 0;
+    width: 0;
+    background: #ffffff;
+    display: block;
+    height: 1px;
+    transition: all 0.6s cubic-bezier(0.215,0.61,0.355,1) 0s;
+}
+.nav-center .object .text:hover i{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    background: #ffffff;
+    display: block;
+    height: 1px;
+    transition: all 0.6s cubic-bezier(0.215,0.61,0.355,1) 0s;
+}
+.nav-center .object:nth-child(3) .text i{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    opacity: 1;
+    background: #ffffff;
+    display: block;
+    height: 1px;
+    transition: all 0.6s cubic-bezier(0.215,0.61,0.355,1) 0s;
+}
+.nav-right{
+    width: 264px;
+    height: 100%;
+    float: right;
+}
+.nav-right-box{
+    width: 161px;
+    height: 50px;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+}
+.nav-right-box .img-box2{
+    width: 27px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.nav-right-box .img-box2 .img2{
+    width: 100%;
+}
+.nav-right-box .line1{
+    color: #FFFFFF;
+    text-align: right;
+    font-weight: normal;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+.nav-right-box .box{
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    font-family: georgia;
+}
+.nav-right-box .box .span2{
+    position: absolute;
+    left: 15px;
+    top: 6px;
+    font-size: 20px;
+    display: block;
+}
+/* 中间开始 */
+.find-box{
+    width: 1024px;
+    height: 750px;
+    overflow: hidden;
+    margin: auto;
+}
+.find-left{
+    width: 256px;
+    height: 135px;
+    margin-top: 50px;
+    float: left;
+}
+.find-a{
+    display: block;
+    width: 180px;
+    height:44px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.find-span{
+    line-height: 44px;
+    text-align: left;
+    font-size: 100%;
+    color: #8d9095;
+}
+.find-right{
+    width: 768px;
+    float: right;
+    margin-top: 50px;
+
+}
+.find-header{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.find-header-left{
+    padding-left:30px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    text-align: left;
+    line-height: 40px;
+    float: left;
+}
+.find-header-right{
+    width: 105px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(13, 174, 184);
+    float: right;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(13, 174, 184);
+}
+.find-click{
+    width: 722px;
+    height: 134px;
+    margin: 10px 30px;
+}
+.click-img{
+    width: 180px;
+    height: 134px;
+    float: left;
+}
+.click-img .clickimg{
+    width: 100%;
+}
+.click-right{
+    width: 528px;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+}
+.click-right .header-a{
+    display: block;
+    word-spacing: normal;
+    text-align: left;
+    color: #666666;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    line-height: 16px;
+}
+.date{
+    color: #4cd7de;
+    font-size: 11px;
+    margin: 10px 0;
+    text-align: left;
+}
+.click-p{
+    color: #9e9e9e;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    line-height: 20px;
+    overflow: hidden;
+}
+/* 中间结束 */
+/* 最后开始 */
+.foot-box{
+    width: 100%;
+    height: 232px;
+    padding-top: 40px;
+    color: #8d9095;
+    font-weight: 400;
+    word-spacing: normal;
+    background: #2c2c2c none repeat center top;
+}
+.foot{
+    width: 1024px;
+    height: 100%;
+    padding: 0 40px;
+    margin: auto;
+    overflow: hidden;
+}
+.foot1{
+    width: 190px;
+    height: 134px;
+    float: left;
+    margin-top: 15px;
+}
+.foot1 h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.foot-img{
+    width: 100px;
+    height: 100px;
+}
+.footimg{
+    width: 100%;
+}
+.foot2{
+    width: 278px;
+    height: 134px;
+    float: left;
+    margin-top: 15px;
+}
+.foot2 h5{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.foot2 span{
+    font-size: 12px;
+}
+.foot-text{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #8d9095;
+    line-height: 30px;
+    margin-top: 50px;
+}
+/* 最后结束 */
